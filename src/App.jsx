@@ -14,15 +14,15 @@ const App = () => {
         </p>
         <ul className="m-3 text-xl">
           <li className="border p-5">
-            git init: Inicializa un reposotorio en Git.{" "}
+            git init: Inicializa un reposotorio en Git. Crea la rama master/principal.
           </li>
           <li className="border p-5">
-            git status: Muestra el estado de los archivos en el respositorio.
+            git status: Muestra el estado o seguimiento de los archivos en el respositorio. Muestra si están en seguimiento o no y si están para hacer commit
           </li>
           <li className="border p-5">
             git add: Agrega archivos en el Staging Area. Si se utiliza con un
-            punto (.) agrega todos los archivos. En cambio si escribo el
-            archivo, se agregará ese archivo individual.
+            punto (.) agrega todos los archivos. En cambio si escribo el archivo
+            luego de add, se agregará ese archivo individual.
           </li>
           <li className="border p-5">
             git commit: Guarda los archivos en el Working Directory
