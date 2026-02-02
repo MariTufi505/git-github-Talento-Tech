@@ -25,7 +25,7 @@ const App = () => {
             luego de add, se agregará ese archivo individual.
           </li>
           <li className="border p-5">
-            git commit: Guarda los archivos en el Working Directory
+            git commit -m "Mensaje": Guarda los archivos en el Working Directory
           </li>
           <li className="border p-5">
             git push: Sube los archivos del Working Direcotry al repositorio
@@ -35,6 +35,7 @@ const App = () => {
             git pull: Trae los cambios del respositorio remoto al local
           </li>
           <li className="border p-5">git merge: Une ramas en una sola.</li>
+          <li className="border p-5">git log: Ve los diferentes commits hechos. Historial de commits.</li>
         </ul>
       </div>
       <hr />
