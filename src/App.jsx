@@ -2,13 +2,13 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className="w-full bg-cyan-600">
-      <h1 className="text-cyan-800 p-12 text-5xl flex justify-center italic">
+    <div className="w-full bg-pink-600">
+      <h1 className="text-pink-800 p-12 text-5xl flex justify-center italic">
         Proyecto Git - Github
         <br /> Talento Tech
       </h1>
       <hr />
-      <div className="m-auto text-3xl text-cyan-900 flex-wrap columns-1 w-3/4">
+      <div className="m-auto text-3xl text-pink-900 flex-wrap columns-1 w-3/4">
         <p className="flex justify-center m-5">
           En Git tenemos diferentes comandos. Los más utilizados son:
         </p>
@@ -36,6 +36,8 @@ const App = () => {
           </li>
           <li className="border p-5">git merge: Une ramas en una sola.</li>
           <li className="border p-5">git log: Ve los diferentes commits hechos. Historial de commits.</li>
+
+          <p>Ejemplo de cambio realizado en la rama nueva-rama</p>
         </ul>
       </div>
       <hr />
